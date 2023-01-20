@@ -1,3 +1,18 @@
+vous devez téléchager CSR1000v : https://www.cisco.com/c/en/us/support/routers/cloud-services-router-1000v-series/products-release-notes-list.html
+Une machine virtuelle contient python et Ansible installé.
+assurer la connectivité entre les deux machines.
+4 Tâches:
+ - installer CSR1000v.
+ - Utiliser Ansible pour sauvegarder et configurer un périphérique.
+ - Utiliser Ansible pour automatiser l'installation d'un serveur Web.
+ - Tests automatisés utilisant PYATS et Genie.
+
+
+pour voir le contenu du playbook:
+cat playbook.yml
+pour voir les roles:
+cat roles/cisco_config/tasks/main.yml
+
 Créer votre fichier YAML testbed, . 
 - Nom d'hôte du périphérique - Ce nom doit correspondre au nom d'hôte du périphérique, qui est CSR1kv pour ce laboratoire .
 - Adresse IP - Cette adresse doit correspondre à votre adresse IPv4 CSR1kv que vous avez découverte plus tôt dans ce laboratoire. Le montre ici est 192.168.56.101.
