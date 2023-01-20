@@ -1,0 +1,15 @@
+---
+- name: USING ROLE CISCO CONFIG_ROUTER
+  hosts: CSR1kv 
+  gather_facts: false
+  connection: local
+  roles:
+    - role: cisco_router
+ 
+
+- name: INSTALL APACHE
+  hosts: webservers
+  roles:
+    - role: apache
+    - role: apache_options
+...

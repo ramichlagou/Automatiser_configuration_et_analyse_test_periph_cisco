@@ -1,0 +1,7 @@
+Issue with the parser show ipv6 interface gig 1
+
+Traceback (most recent call last):
+  File "src/genie/cli/commands/parser.py", line 339, in genie.cli.commands.parser.ParserCommand.parse
+  File "src/genie/conf/base/device.py", line 531, in genie.conf.base.device.Device.parse
+  File "src/genie/conf/base/device.py", line 578, in genie.conf.base.device.Device._get_parser_output
+TypeError: device is not connected, output must be provided.

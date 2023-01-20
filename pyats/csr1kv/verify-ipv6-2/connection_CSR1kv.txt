@@ -1,0 +1,1839 @@
+
+2022-12-30 11:22:00,396: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2022-12-30 11:22:00,396: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2022-12-30 11:22:00,479: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140145458284768 +++
+
+2022-12-30 11:22:00,479: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2022-12-30 11:22:00,650: %UNICON-INFO: +++ initializing handle +++
+
+2022-12-30 11:22:00,788: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2022-12-30 11:22:01,224: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2022-12-30 11:22:01,462: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 1 hour, 15 minutes
+Uptime for this control processor is 1 hour, 17 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2022-12-30 11:22:03,016: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::56:1 
+  No Virtual link-local address(es):
+  Description: VBox
+  Global unicast address(es):
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:101
+    FF02::1:FF56:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2022-12-30 11:22:35,859: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2022-12-30 11:22:35,859: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2022-12-30 11:22:35,943: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140076042250416 +++
+
+2022-12-30 11:22:35,943: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2022-12-30 11:22:36,028: %UNICON-INFO: +++ initializing handle +++
+
+2022-12-30 11:22:36,102: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2022-12-30 11:22:36,336: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2022-12-30 11:22:36,574: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 1 hour, 16 minutes
+Uptime for this control processor is 1 hour, 17 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2022-12-30 11:22:38,005: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::56:1 
+  No Virtual link-local address(es):
+  Description: VBox
+  Global unicast address(es):
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:101
+    FF02::1:FF56:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-13 14:22:26,641: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-13 14:22:26,652: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-13 14:22:26,705: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140181778827440 +++
+
+2023-01-13 14:22:26,706: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-13 14:22:26,779: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-13 14:22:26,871: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-13 14:22:27,172: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-13 14:22:27,437: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 3 hours, 15 minutes
+Uptime for this control processor is 3 hours, 18 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-13 14:22:28,912: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::56:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF56:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-16 12:53:06,731: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-16 12:53:06,743: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-16 12:53:06,793: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 139752756369728 +++
+
+2023-01-16 12:53:06,793: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-16 12:53:06,872: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-16 12:53:06,969: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-16 12:53:07,238: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-16 12:53:07,513: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 3 hours, 41 minutes
+Uptime for this control processor is 3 hours, 43 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-16 12:53:08,661: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-16 16:46:13,112: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-16 16:46:13,114: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-16 16:46:13,284: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140002038032704 +++
+
+2023-01-16 16:46:13,284: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-16 16:46:13,652: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-16 16:46:13,878: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-16 16:46:14,112: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-16 16:46:14,459: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 1 minute
+Uptime for this control processor is 4 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-16 16:46:16,298: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::A00:27FF:FEC8:24CB 
+  No Virtual link-local address(es):
+  Description: VBox
+  Global unicast address(es):
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:101
+    FF02::1:FFC8:24CB
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-16 16:56:44,843: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-16 16:56:44,843: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-16 16:56:44,960: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140162581211408 +++
+
+2023-01-16 16:56:44,961: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-16 16:56:45,232: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-16 16:56:45,316: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-16 16:56:45,556: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-16 16:56:45,801: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 12 minutes
+Uptime for this control processor is 14 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-16 16:56:47,340: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-16 17:04:50,073: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-16 17:04:50,073: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-16 17:04:50,204: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 139981521103072 +++
+
+2023-01-16 17:04:50,205: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-16 17:04:50,330: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-16 17:04:50,445: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-16 17:04:50,725: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-16 17:04:51,032: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 20 minutes
+Uptime for this control processor is 22 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-16 17:04:52,724: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-16 17:09:55,965: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-16 17:09:55,965: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+
+
+2023-01-16 17:09:56,086: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140416262424800 +++
+
+2023-01-16 17:09:56,086: %UNICON-INFO: connection to CSR1kv
+Password: 
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-16 17:09:56,168: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-16 17:09:56,280: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-16 17:09:56,536: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-16 17:09:56,813: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 25 minutes
+Uptime for this control processor is 27 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-16 17:09:58,352: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-16 18:16:55,794: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-16 18:16:55,794: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-16 18:16:55,903: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140475927243024 +++
+
+2023-01-16 18:16:55,905: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-16 18:16:56,043: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-16 18:16:56,142: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-16 18:16:56,428: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-16 18:16:56,647: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 1 hour, 32 minutes
+Uptime for this control processor is 1 hour, 34 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-16 18:16:58,105: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-16 18:19:48,392: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-16 18:19:48,392: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-16 18:19:48,511: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140528946174224 +++
+
+2023-01-16 18:19:48,512: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-16 18:19:48,675: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-16 18:19:48,752: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-16 18:19:48,978: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-16 18:19:49,189: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 1 hour, 35 minutes
+Uptime for this control processor is 1 hour, 37 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-16 18:19:50,761: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-17 13:18:55,889: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-17 13:18:55,892: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-17 13:18:56,018: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140295356258576 +++
+
+2023-01-17 13:18:56,019: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-17 13:18:56,324: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-17 13:18:56,600: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-17 13:18:57,002: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-17 13:18:57,600: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 9 minutes
+Uptime for this control processor is 10 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-17 13:18:59,421: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-17 15:28:49,505: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-17 15:28:49,505: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-17 15:28:49,563: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 139965364930784 +++
+
+2023-01-17 15:28:49,564: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-17 15:28:49,632: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-17 15:28:49,701: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-17 15:28:49,941: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-17 15:28:50,179: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 2 hours, 19 minutes
+Uptime for this control processor is 2 hours, 20 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-17 15:28:51,240: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-17 15:56:59,999: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-17 15:57:00,000: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-17 15:57:00,068: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140526220417248 +++
+
+2023-01-17 15:57:00,068: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-17 15:57:00,138: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-17 15:57:00,211: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-17 15:57:00,454: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-17 15:57:00,680: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 2 hours, 47 minutes
+Uptime for this control processor is 2 hours, 48 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-17 15:57:01,728: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-17 16:30:47,713: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-17 16:30:47,713: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-17 16:30:47,767: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 139873775245536 +++
+
+2023-01-17 16:30:47,768: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-17 16:30:47,939: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-17 16:30:48,028: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-17 16:30:48,370: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-17 16:30:48,704: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 3 hours, 21 minutes
+Uptime for this control processor is 3 hours, 22 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-17 16:30:50,002: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#
+
+2023-01-19 08:44:47,412: %UNICON-INFO: +++ CSR1kv logfile verify-ipv6-2/connection_CSR1kv.txt +++
+
+2023-01-19 08:44:47,414: %UNICON-INFO: +++ Unicon plugin iosxe (unicon.plugins.iosxe) +++
+Password: 
+
+2023-01-19 08:44:47,551: %UNICON-INFO: +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.102, id: 140560006895888 +++
+
+2023-01-19 08:44:47,552: %UNICON-INFO: connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+CSR1kv#
+
+2023-01-19 08:44:47,688: %UNICON-INFO: +++ initializing handle +++
+
+2023-01-19 08:44:47,765: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term length 0' +++
+term length 0
+CSR1kv#
+
+2023-01-19 08:44:48,033: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'term width 0' +++
+term width 0
+CSR1kv#
+
+2023-01-19 08:44:48,291: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 16.09.05
+Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 30-Jan-20 18:48 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2020 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+
+CSR1kv uptime is 8 minutes
+Uptime for this control processor is 10 minutes
+System returned to ROM by reload
+System image file is "bootflash:packages.conf"
+Last reload reason: reload
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+License Level: ax
+License Type: Default. No valid license found.
+Next reload license Level: ax
+
+
+Smart Licensing Status: Smart Licensing is DISABLED
+
+cisco CSR1000V (VXE) processor (revision VXE) with 2182252K/3075K bytes of memory.
+Processor board ID 9IQHD4O9P8Z
+1 Gigabit Ethernet interface
+32768K bytes of non-volatile configuration memory.
+3985032K bytes of physical memory.
+7774207K bytes of virtual hard disk at bootflash:.
+0K bytes of WebUI ODM Files at webui:.
+
+Configuration register is 0x2102
+
+CSR1kv#
+
+2023-01-19 08:44:49,992: %UNICON-INFO: +++ CSR1kv with via 'cli': executing command 'show ipv6 interface gig 1' +++
+show ipv6 interface gig 1
+GigabitEthernet1 is up, line protocol is up
+  IPv6 is enabled, link-local address is FE80::1:1 
+  No Virtual link-local address(es):
+  Description: IPv6 ADDRESS
+  Global unicast address(es):
+    2001:DB8:ACAD:1::1, subnet is 2001:DB8:ACAD:1::/64 
+    2001:DB8:ACAD:56::101, subnet is 2001:DB8:ACAD:56::/64 
+  Joined group address(es):
+    FF02::1
+    FF02::1:FF00:1
+    FF02::1:FF00:101
+    FF02::1:FF01:1
+  MTU is 1500 bytes
+  ICMP error messages limited to one every 100 milliseconds
+  ICMP redirects are enabled
+  ICMP unreachables are sent
+  ND DAD is enabled, number of DAD attempts: 1
+  ND reachable time is 30000 milliseconds (using 30000)
+  ND NS retransmit interval is 1000 milliseconds
+CSR1kv#

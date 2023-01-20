@@ -1,0 +1,16 @@
+---
+# tasks file for apache
+# test connectivity server
+
+- name: RUN ECHO COMMAND
+  command: /bin/echo hello world
+
+# INSTALL APACHE
+
+- name: INSTALL APACHE2
+  apt: name=apache2 update_cache=yes state=latest
+- name: ENABLE MOD_REWRITE
+  apache2_module: name=rewrite state=present
+  changed_when: true
+  notify: RESTART APACHE
+  
