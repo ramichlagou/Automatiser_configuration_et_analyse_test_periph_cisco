@@ -11,7 +11,7 @@ assurer la connectivité entre les deux machines.
 pour voir le contenu du playbook:
 cat playbook.yml
 pour voir les roles:
-cat roles/cisco_config/tasks/main.yml
+cat roles/cisco_routeur/tasks/main.yml
 
 Créer votre fichier YAML testbed, . 
 - Nom d'hôte du périphérique - Ce nom doit correspondre au nom d'hôte du périphérique, qui est CSR1kv pour ce laboratoire .
